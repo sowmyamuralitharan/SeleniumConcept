@@ -23,20 +23,20 @@ public class ActionsDemo {
 		ac.moveToElement(women).perform();
 		Thread.sleep(2000);
 		
-		WebElement tshirt = driver.findElement(By.xpath("(//a[@title='T-shirts'])[1]"));
+		/*WebElement tshirt = driver.findElement(By.xpath("(//a[@title='T-shirts'])[1]"));
 		ac.moveToElement(tshirt).perform();
-		ac.click(tshirt).perform();
+		ac.click(tshirt).perform();*/
 		Thread.sleep(3000);
 		
-		/*WebElement blouse = driver.findElement(By.xpath("//a[@title='Blouses']"));
+		WebElement blouse = driver.findElement(By.xpath("//a[@title='Blouses']"));
 		ac.moveToElement(blouse).perform();
-		ac.click(blouse).perform();*/
+		ac.click(blouse).perform();
 		
-		//JavascriptExecutor js = (JavascriptExecutor) driver;
-		//js.executeScript("arguments[0].click();",tshirt);
+		/*JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();",tshirt);
 		
-		//tshirt.click();
-		
+		tshirt.click();
+		*/
 		
 		
 		
